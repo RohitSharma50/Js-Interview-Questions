@@ -49,3 +49,11 @@ const has also block
       }
          console.log(a);   // o/p--10      outside block scope
       
+### Functions in JS :
+
+- function expression
+- function statement
+- function declaration
+- Anonymous function
+- Arrow Function ()=>{}
+- first class function:
