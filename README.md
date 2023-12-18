@@ -9,12 +9,12 @@ var has  function scope or globl scope
 
       var a =  20;
 
-      console.log(a); // ans= 20;
+      console.log(a);                  // ans= 20;
   var a = 50;
 {
       var a =  20;
 }
-      console.log(a);             o/p = 20
+      console.log(a);                    o/p = 20
 
 let has block scope
 
@@ -24,7 +24,7 @@ let has block scope
         {
           let a = 5;
          }
-      console.log(a);           // error (a is not defined)
+      console.log(a);                    // error (a is not defined)
 
    let a=5;   // having scope outside below scope
         {
@@ -39,15 +39,40 @@ const has also block
 - reassignment and redelclare not allowed.
 
       const a = 25;
-            a = 50;                //error
+            a = 50;                                 //error
       console.log(a); 
     
        const x = 10;
       {
         const x = 5;
-        console.log(a);   // o/p--5   only block scope
+        console.log(a);                          // o/p=>5   only block scope
       }
-         console.log(a);   // o/p--10      outside block scope
+         console.log(a);                       // o/p=>10      outside block scope
+
+### Truthy & Falsy values:
+All values are truthy except 0, false, -0, 0n, "", null, undefined, NaN,{},Infinity,-Infinity are falsy values.
+JavaScript uses type coercion in Boolean contexts.
+
+**Type coercion is the automatic or implicit conversion of values from one data type to another (such as strings to numbers)**
+
+               console.log(false);                            o/p=> false 
+               console.log(+false);                           o/p=> 0         // we uses + to convert data type into a number 
+         
+               console.log(false == []);                      o/p=> true  
+               console.log(false == ![]);                     o/p=> true
+
+
+### In first case
+== convert [](i.e empty array) into empty string(""), now it look like (false == "") due difference in data types == convert them into numbers then it look like 0==0 so this return true.
+
+### second case 
+here [](empty array) is a truthy value as according to above rules and after negating it it return false it look like this false==false so this return 0.
+
+
+
+         
+
+
       
 ### Functions in JS :
 
