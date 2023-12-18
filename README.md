@@ -60,7 +60,7 @@ JavaScript uses type coercion in Boolean contexts.
          
                console.log(false == []);                      o/p=> true  
                console.log(false == ![]);                     o/p=> true
-
+                read below for Explanation ⬇️
 
 ### In first case
 == convert [](i.e empty array) into empty string(""), now it look like (false == "") due difference in data types == convert them into numbers then it look like 0==0 so this return true.
