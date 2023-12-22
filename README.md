@@ -75,7 +75,19 @@ here [](empty array) is a truthy value as according to above rules and after neg
 
       
 ### Functions in JS :
+There are many more concepts and ideas in functional programming.
+Here are some of the most important ones:
 
+- First-class functions are simple values that can be
+- pass to other functions
+-save in a variable
+-return from other functions
+
+- Higher-order function
+
+- Pure functions and side-effects
+
+  
 - function expression
 - function statement
 - function declaration
