@@ -16,6 +16,17 @@
          }
       console.log(a);                    o/p = 20
 
+      var globalVar = 77;
+      function scopeTest() {
+        var localVar = 88;
+       }
+
+      console.log(localVar);           // ReferenceError: localVar is not defined (it have block scope only)
+
+
+
+
+
   ## let has block scope
 
 - we  can accesse it only within that specific block.
