@@ -4,36 +4,37 @@ var has  function scope or globl scope
 
 - we can redelclare it as many times as we want.
 - value can be reassigned many times.
-
+- we can use it before declaring var
+  
       var a = 50;
-
       var a =  20;
-
+      console.log(b);            // ans= undefined
+      var b=87;
       console.log(a);                  // ans= 20;
-  var a = 50;
-{
+      var a = 50;{
       var a =  20;
-}
+         }
       console.log(a);                    o/p = 20
 
-let has block scope
+  let has block scope
 
 - we  can accesse it only within that specific block.
 - can't redeclare it but can be reassigned.
+- we can't use let and const before declaring it like var
 
-        {
+      {
           let a = 5;
          }
       console.log(a);                    // error (a is not defined)
 
-   let a=5;   // having scope outside below scope
+      let a=5;   // having scope outside below scope
         {
            let a = 10;   // only have block scope
             console.log(a);     
         }
      
 
-const has also block
+      const has also block
 
 - declare it only one time and we can not change the value of const variable
 - reassignment and redelclare not allowed.
