@@ -78,19 +78,27 @@ here [](empty array) is a truthy value as according to above rules and after neg
 There are many more concepts and ideas in functional programming.
 Here are some of the most important ones:
 
-- First-class functions are simple values that can be
-- pass to other functions
--save in a variable
--return from other functions
-
+- First-class functions
+      these are simple values that can be
+  
+      - pass to other functions 
+      - save in a variable
+      - return from other
 - Higher-order function
+  
+    is a function that has either one or both of the following characteristics:
+  
+            It accepts other functions as arguments
+            It returns functions when invoked
+
+
 
 - Pure functions and side-effects
 
+      A pure function returns the exact same result as long as it's given the same values.
+      An example of a pure function is the addTwoNums(), this function return the same output as long as the input is same.
   
-- function expression
-- function statement
-- function declaration
+
 - Anonymous function
 - Arrow Function ()=>{}
 - first class function:
