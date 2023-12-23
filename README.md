@@ -1,6 +1,6 @@
 # Js-Interview-Questions 
 
-var has  function scope or globl scope 
+## var has  function scope or globl scope 
 
 - we can redelclare it as many times as we want.
 - value can be reassigned many times.
@@ -16,7 +16,7 @@ var has  function scope or globl scope
          }
       console.log(a);                    o/p = 20
 
-  let has block scope
+  ## let has block scope
 
 - we  can accesse it only within that specific block.
 - can't redeclare it but can be reassigned.
@@ -34,11 +34,12 @@ var has  function scope or globl scope
         }
      
 
-      const has also block
+  ##const has also block
 
 - declare it only one time and we can not change the value of const variable
 - reassignment and redelclare not allowed.
-
+- Variables declared with const must be assigned during declaration.
+  
       const a = 25;
             a = 50;                                 //error
       console.log(a); 
@@ -75,7 +76,7 @@ here [](empty array) is a truthy value as according to above rules and after neg
 
 
       
-### Functions in JS :
+## Functions in JS :
 There are many more concepts and ideas in functional programming.
 Here are some of the most important ones:
 
