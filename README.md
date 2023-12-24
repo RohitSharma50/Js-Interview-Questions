@@ -114,11 +114,19 @@ Here are some of the most important ones:
 - Anonymous function
  
       A function having no name is called anonymouse function it can be assigned to a variable and can be pass as callback
-      const sruare = function (num){
+      const square = function (num){
        return num*num; }
 - Arrow Function ()=>{}
-- first class function:
+- first class function
+     a function that can be treated like variable are called first class functions. these can be return manipulated and can do anythis that an variable can do.
 
+       const square = function (num){
+       return num*num;
+       }
+       const display(fn){
+       console.log(fn(5));
+       }
+      display(square);    // 25
 
  ## ways to center align a img in a div
      - Flexbox
@@ -147,4 +155,4 @@ Here are some of the most important ones:
 
  ## here are some baseic data types in js and all basic data types are immutable the are only pass by values (used in abole case)
                        
-                        number, string, BigIn, Null, Undefined, Boolean,Symbol. almost everything start with New keyword are all mutable.
+                number, string, BigIn, Null, Undefined, Boolean,Symbol. almost everything start with New keyword are all mutable.
