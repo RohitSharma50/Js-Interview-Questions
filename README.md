@@ -127,6 +127,8 @@ Here are some of the most important ones:
        console.log(fn(5));
        }
       display(square);    // 25
+ - What is IIFE?
+
 
  ## ways to center align a img in a div
      - Flexbox
