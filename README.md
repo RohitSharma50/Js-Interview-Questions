@@ -136,7 +136,12 @@ Here are some of the most important ones:
     var z={first:true}; 
 
     f(x,y,z);
-    console.log(x,y,z); 
+    console.log(x,y,z);                         // 4 [ 'x', 'b', 'c' ] { first: false }
 
-    
-     
+
+  here in above example x is immutable so it is pass by value its value get copied into a and in change in a it wouldn't affect the value at x;
+  and in case of y and z values are pass by reference so any change in b and c will affect the values present in y and z.
+
+ ## here are some baseic data types in js and all basic data types are immutable the are only pass by values (used in abole case)
+                       
+                        number, string, BigIn, Null, Undefined, Boolean,Symbol. almost everything start with New keyword are all mutable.
