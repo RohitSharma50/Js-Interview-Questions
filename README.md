@@ -87,7 +87,8 @@ here [](empty array) is a truthy value as according to above rules and after neg
 
 
       
-## Functions in JS :
+## Functions in JS : 
+function decelaration and expression are same but the difference is function expression are assigned to a variable.
 There are many more concepts and ideas in functional programming.
 Here are some of the most important ones:
 
@@ -104,8 +105,6 @@ Here are some of the most important ones:
             It accepts other functions as arguments
             It returns functions when invoked
 
-
-
 - Pure functions and side-effects
 
       A pure function returns the exact same result as long as it's given the same values.
@@ -113,6 +112,10 @@ Here are some of the most important ones:
   
 
 - Anonymous function
+ 
+      A function having no name is called anonymouse function it can be assigned to a variable and can be pass as callback
+      const sruare = function (num){
+       return num*num; }
 - Arrow Function ()=>{}
 - first class function:
 
