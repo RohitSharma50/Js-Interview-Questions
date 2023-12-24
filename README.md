@@ -115,3 +115,28 @@ Here are some of the most important ones:
 - Anonymous function
 - Arrow Function ()=>{}
 - first class function:
+
+
+ ## ways to center align a img in a div
+     - Flexbox
+     - Grid css
+     - table css
+     - position css
+     - margin css 
+
+## find the output 
+     function f(a,b,c){
+    m=["1","2","3"];
+    a=3;
+    b[0]="x";
+    c.first=false;
+    } 
+     var x=4;
+    var y=["A","b","c"];
+    var z={first:true}; 
+
+    f(x,y,z);
+    console.log(x,y,z); 
+
+    
+     
