@@ -183,3 +183,6 @@ Here are some of the most important ones:
                                   const Component = () => "Hello"
                                   const componentElement = <Component />
                                      const domNodeElement = <div />
+## What is the difference between em and rem units?
+            em units inherit their value from the font-size of the parent element
+            rem units inherit their value from the font-size of the root element (html)
