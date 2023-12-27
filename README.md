@@ -172,12 +172,12 @@ Here are some of the most important ones:
                               .block__element--modifier {
                                     }
    ## What is the difference between the equality operators == and ===?
-
-    Triple equals (===) checks for strict equality, which means both the type and value must be the same. Double equals (==) on the other hand first performs type coercion so that both operands are of the same type and then applies strict comparison.
+              Triple equals (===) checks for strict equality, which means both the type and value must be the same. Double equals (==) on the other hand first performs type coercion so that both operands are of 
+                 the same type and then applies strict comparison.
   ## What is the difference between an element and a component in React?
          
-    Elements are immutable, plain objects that describe the DOM nodes or components you want to render.
-    Components can be either classes or functions, that take props as an input and return an element tree as the output.
-                const Component = () => "Hello"
-                 const componentElement = <Component />
-                const domNodeElement = <div />
+           Elements are immutable, plain objects that describe the DOM nodes or components you want to render.
+          Components can be either classes or functions, that take props as an input and return an element tree as the output.
+                                  const Component = () => "Hello"
+                                  const componentElement = <Component />
+                                     const domNodeElement = <div />
