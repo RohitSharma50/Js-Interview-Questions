@@ -172,7 +172,8 @@ Here are some of the most important ones:
                               .block__element--modifier {
                                     }
    ## What is the difference between the equality operators == and ===?
-              Triple equals (===) checks for strict equality, which means both the type and value must be the same. Double equals (==) on the other hand first performs type coercion so that both operands are of 
+      Triple equals (===) checks for strict equality, which means both the type and value must be the same. Double equals (==) on the other 
+      hand first performs type coercion so that both operands are of 
                  the same type and then applies strict comparison.
   ## What is the difference between an element and a component in React?
          
