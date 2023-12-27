@@ -1,5 +1,4 @@
-# Js-Interview-Questions  ![image](https://github.com/RohitSharma50/Js-Interview-Questions/assets/96370161/0b4cfec8-77e0-460b-bcb0-b184a2650ffd)
-
+# Js-Interview-Questions  
 
 
 ## var has  function scope or globl scope 
