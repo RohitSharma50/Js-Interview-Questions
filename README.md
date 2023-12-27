@@ -88,7 +88,12 @@ here [](empty array) is a truthy value as according to above rules and after neg
 
 
       
-## Functions in JS : 
+## Functions in JS :  
+### What is the difference between an expression and a statement in JavaScript?
+       Expression: produces a value
+       Statement: performs an action
+       Expression statement: produces a value and performs an action
+       you can print it or assign it to a variable, it’s an expression. If you can’t, it’s a statement.
 function decelaration and expression are same but the difference is function expression are assigned to a variable.
 There are many more concepts and ideas in functional programming.
 Here are some of the most important ones:
