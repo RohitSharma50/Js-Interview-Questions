@@ -191,3 +191,12 @@ Here are some of the most important ones:
 ## What is the difference between em and rem units?
             em units inherit their value from the font-size of the parent element
             rem units inherit their value from the font-size of the root element (html)
+
+ ## out based Question 
+            let a=[]; 
+            let b=[];
+            console.log(a==b); 
+            console.log(a===b); 
+                 
+                           //if empty array is compared then it compare their memory location  
+                          //so here two arrays can't have same memory location so it return false
