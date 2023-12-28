@@ -200,3 +200,9 @@ Here are some of the most important ones:
                  
                            //if empty array is compared then it compare their memory location  
                           //so here two arrays can't have same memory location so it return false
+### console.log(typeof NaN);              
+                         // Number
+  ## let a=[1,2,3,4];
+  console.log(...a);
+                        
+                          // 1 2 3 4 (... destructure the array its element came out of array)
