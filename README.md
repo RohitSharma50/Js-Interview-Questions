@@ -6,6 +6,7 @@
 - we can redelclare it as many times as we want.
 - value can be reassigned many times.
 - we can use it before declaring var
+
   
       var a = 50;
       var a =  20;
@@ -46,7 +47,7 @@
         }
      
 
-  ##const has also block
+  ### const has also block
 
 - declare it only one time and we can not change the value of const variable
 - reassignment and redelclare not allowed.
