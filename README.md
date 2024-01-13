@@ -207,3 +207,14 @@ Here are some of the most important ones:
   console.log(...a);
                         
                           // 1 2 3 4 (... destructure the array its element came out of array)
+## an object is not iterable. For example: 
+
+        const car = {
+    speed: 100,
+    color: "blue"
+      }
+
+            for(prop of car) {
+           console.log(prop)
+           }                                //TypeError: car is not iterable
+
