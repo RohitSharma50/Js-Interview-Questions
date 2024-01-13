@@ -218,3 +218,14 @@ Here are some of the most important ones:
            console.log(prop)
            }                                //TypeError: car is not iterable
 
+## Template literals (Template strings)
+
+      Template literals are literals delimited with backtick (`) characters, allowing for multi-line strings, string interpolation with embedded expressions, and special constructs called tagged templates.
+
+      `string text ${expression} string text`
+      Template literals are sometimes informally called template strings, because they are used most commonly for string interpolation (to create strings by doing substitution of placeholders).
+      Template Strings allow both single and double quotes inside a string:
+      Template Strings allow multiline strings:
+
+
+     
