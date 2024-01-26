@@ -227,5 +227,5 @@ Here are some of the most important ones:
       Template Strings allow both single and double quotes inside a string:
       Template Strings allow multiline strings:
 
-### next point
+### next
      
