@@ -227,5 +227,9 @@ Here are some of the most important ones:
       Template Strings allow both single and double quotes inside a string:
       Template Strings allow multiline strings:
 
-### next
+### Spread Operator 
+          The advantage of this approach is that you don't have to list each individual member of the array that you want to pass to your function. 
+          you can do simpely like 
+           a[5]=[1,2,3,4,5];
+           f(...a)  // passing an array to a function 
      
