@@ -232,5 +232,6 @@ Here are some of the most important ones:
           you can do simpely like 
            a[5]=[1,2,3,4,5];
            f(...a)  // passing an array to a function 
-     
-###  start next  one here 
+  ### The comma (,)
+    operator evaluates each of its operands (from left to right) and returns the value of the last operand. 
+    const a = (1,2,3) // 3 <--
