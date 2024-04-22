@@ -235,3 +235,7 @@ Here are some of the most important ones:
   ### The comma (,)
     operator evaluates each of its operands (from left to right) and returns the value of the last operand. 
     const a = (1,2,3) // 3 <--
+
+
+### my console wast showing blow error without using defer in script tag
+     Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')
